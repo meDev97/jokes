@@ -1,0 +1,36 @@
+.joke {
+  display: flex;
+  border-bottom: 2px solid #eeeeee;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 1rem;
+}
+.joke-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+.joke-text {
+  width: 75%;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+.joke-vote {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid red;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+  box-sizing: content-box;
+}
+.fas {
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+  color: #ff0000;
+}
